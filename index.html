@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tienda Online</title>
+  
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Enlace a particles.js desde la CDN -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+  <!-- Contenedor para las partÃ­culas -->
+  <div id="particles-js"></div>
+
+  <!-- Contenido de la pÃ¡gina -->
+  <div id="page-content">
+    <header>
+        <img src="media/img/DaCar/1.png" alt="">
+    </header>
+
+    <section id="productos">
+      <article class="producto">
+        <img src="media/img/pr1.jpg" alt="Producto 1" style="height: 300px;">
+        <h2>Producto 1</h2>
+        <p>DescripciÃ³n del producto 1.</p>
+        <p>Precio: $XX.XX</p>
+        <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+      </article>
+      <!-- Repite este bloque para mÃ¡s productos -->
+      <article class="producto">
+        <img src="media/img/pr1.jpg" alt="Producto 1" style="height: 300px;">
+        <h2>Producto 1</h2>
+        <p>DescripciÃ³n del producto 1.</p>
+        <p>Precio: $XX.XX</p>
+        <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+      </article>
+      <!-- Repite este bloque para mÃ¡s productos -->
+      <article class="producto">
+        <img src="media/img/pr1.jpg" alt="Producto 1" style="height: 300px;">
+        <h2>Producto 1</h2>
+        <p>DescripciÃ³n del producto 1.</p>
+        <p>Precio: $XX.XX</p>
+        <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+      </article>
+      <!-- Repite este bloque para mÃ¡s productos -->
+      <article class="producto">
+        <img src="media/img/pr1.jpg" alt="Producto 1" style="height: 300px;">
+        <h2>Producto 1</h2>
+        <p>DescripciÃ³n del producto 1.</p>
+        <p>Precio: $XX.XX</p>
+        <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+      </article>
+      <article class="producto">
+        <img src="media/img/pr1.jpg" alt="Producto 1" style="height: 300px;">
+        <h2>Producto 1</h2>
+        <p>DescripciÃ³n del producto 1.</p>
+        <p>Precio: $XX.XX</p>
+        <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+      </article>
+      <!-- Repite este bloque para mÃ¡s productos -->
+      <article class="producto">
+        <img src="media/img/pr1.jpg" alt="Producto 1" style="height: 300px;">
+        <h2>Producto 1</h2>
+        <p>DescripciÃ³n del producto 1.</p>
+        <p>Precio: $XX.XX</p>
+        <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+      </article>
+    </section>
+
+    <section id="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul id="lista-carrito">
+        <!-- AquÃ­ se mostrarÃ¡n los productos agregados al carrito -->
+      </ul>
+      <p>Total: $<span id="total">0.00</span></p>
+      <button onclick="realizarPedido()">Realizar Pedido</button>
+    </section>
+
+    <footer>
+      <p>Gracias por visitar nuestra Tienda Online.</p>
+    </footer>
+  </div>
+
+  <!-- LÃ³gica del sitio -->
+  <script src="main.js"></script>
+</body>
+</html>
+
